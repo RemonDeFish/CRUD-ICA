@@ -8,10 +8,10 @@
             @csrf
 
             <tr>
-                <td>JUDUL</td>
+                <td>NPM</td>
                 <td>:</td>
                 <td>
-                    <input type="text" name="judul" value="{{ old('judul') }}" placeholder="Masukkan Judul Buku">
+                    <input type="text" name="judul" value="{{ old('judul') }}" placeholder="Masukkan NPM">
 
                     <!-- error message untuk judul -->
                     @error('judul')
@@ -21,10 +21,10 @@
             </tr>
 
             <tr>
-                <td>DESKRIPSI</td>
+                <td>Nama</td>
                 <td>:</td>
                 <td>
-                    <textarea name="deskripsi" rows="5" placeholder="Masukkan Deskripsi Buku">{{ old('deskripsi') }}</textarea>
+                    <textarea name="deskripsi" rows="5" placeholder="Masukkan nama">{{ old('deskripsi') }}</textarea>
 
                     <!-- error message untuk deskripsi -->
                     @error('deskripsi')

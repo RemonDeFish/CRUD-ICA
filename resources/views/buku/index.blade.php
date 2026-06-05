@@ -1,8 +1,8 @@
-<a href="{{ route('buku.create') }}">TAMBAH BUKU</a>
+<a href="{{ route('buku.create') }}">TAMBAH NPM</a>
 <table border="1">
     <tr>
-        <th>judul</th>
-        <th>deskripsi</th>
+        <th>NPM</th>
+        <th>Nama</th>
         <th>edit / delete</th>
     </tr>
 
@@ -17,7 +17,7 @@
         </tr>
     @empty
         <div>
-            Data Buku belum tersedia.
+            Data NPM belum tersedia.
         </div>
     @endforelse
 </table>
