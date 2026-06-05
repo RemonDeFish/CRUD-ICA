@@ -12,7 +12,7 @@
             <td>{{ $bukus->deskripsi }}</td>
             <td>
                 <a href="{{ route('buku.edit', $bukus->id) }}">edit</a>
-                / <a href="">hapus</a>
+                <a href="{{ route('buku.hapus', $bukus->id) }}">hapus</a>
             </td>
         </tr>
     @empty
